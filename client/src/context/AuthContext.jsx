@@ -3,7 +3,7 @@ import axios from 'axios'
 
 // Configure axios to use backend API
 // Change 192.168.18.1 to your machine's IP address if needed
-axios.defaults.baseURL = 'http://localhost:5000'
+axios.defaults.baseURL = 'https://cms-final-version.onrender.com'
 
 const AuthContext = createContext()
 
